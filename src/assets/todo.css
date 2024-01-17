@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block{
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    width: 500px;
+    margin: 100px auto;
+    background-color: white;
+}
+.inp__sub{
+    padding: 15px;
+    width: 100%;
+}
+.inp__sub input{
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.inp__sub button {
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+    width: 20%;
+    padding: 10px;
+    border: none;
+}
+.border{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    /* background-color: gray; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.p__chek{
+    gap: 10px;
+    display: flex;
+}
+.actions{
+    display: flex;
+    gap: 10px;
+}
+.p__chek p{
+    color: gray;
+}
+svg path{
+    fill: gray;
+}
+svg{
+    cursor: pointer;
+}
+li:nth-child(even){
+    background-color: gray;
+}
+li:nth-child(even) path{
+    fill: white;
+}
+li:nth-child(even) p{
+    color: white;
+}
